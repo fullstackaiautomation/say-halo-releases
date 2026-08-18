@@ -1,0 +1,88 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Say Halo</title>
+        <item>
+            <title>0.8.9</title>
+            <pubDate>Fri, 07 Aug 2026 12:43:37 -0500</pubDate>
+            <link>https://github.com/fullstackaiautomation/say-halo-releases/releases/latest</link>
+            <sparkle:version>96</sparkle:version>
+            <sparkle:shortVersionString>0.8.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Say Halo 0.8.9
+
+- Converts spoken numbers and percentages into compact text, including “two hundred and
+  twenty-three” → `223` and “ten percent” → `10%`.
+- Stops ordinary text edits from being silently learned as global replacements.
+- Keeps correction learning available through History's explicit Correct & Learn action, where the
+  proposed rules are shown before saving.
+- Preserves every user's private Replace words mappings during updates. Custom mappings remain on
+  that user's Mac and are never distributed with Say Halo.
+]]></description>
+            <enclosure url="https://github.com/fullstackaiautomation/say-halo-releases/releases/download/v0.8.9/Say-Halo-0.8.9-build-96.zip" length="15241665" type="application/octet-stream" sparkle:edSignature="1/haE0v3Jx1hycwUIMlBjShiiRpoZR/Hkj9zPXM4l9dJYzypGfb8ewR2JaNa9OCd/adKmhFXKGjptuLi0k+PBA=="/>
+        </item>
+        <item>
+            <title>0.8.8</title>
+            <pubDate>Mon, 03 Aug 2026 10:43:41 -0500</pubDate>
+            <link>https://github.com/fullstackaiautomation/say-halo-releases/releases/latest</link>
+            <sparkle:version>95</sparkle:version>
+            <sparkle:shortVersionString>0.8.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Say Halo 0.8.8
+
+- Pauses active YouTube and browser playback while Say Halo records, then resumes the same app.
+- Prevents generic media commands from opening Apple Music or replaying short notification sounds.
+- Keeps the existing Pause Media setting and normal transcription workflow unchanged.
+]]></description>
+            <enclosure url="https://github.com/fullstackaiautomation/say-halo-releases/releases/download/v0.8.8/Say-Halo-0.8.8-build-95.zip" length="15168920" type="application/octet-stream" sparkle:edSignature="3pn46zpGW+OJw1cTcoAZgLXEC5CIhjHxxd0ZZODGIgzku2xvBeRsifpBhW2eezWdzUeg2tcn8WiRF2pJcphJAg=="/>
+        </item>
+        <item>
+            <title>0.8.7</title>
+            <pubDate>Sun, 02 Aug 2026 15:39:00 -0500</pubDate>
+            <link>https://github.com/fullstackaiautomation/say-halo-releases/releases/latest</link>
+            <sparkle:version>94</sparkle:version>
+            <sparkle:shortVersionString>0.8.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Say Halo 0.8.7
+
+Say Halo now pauses active music and video while recording, then resumes only media that Say Halo paused. Playback stays at its prior position instead of continuing silently under muted system audio.
+]]></description>
+            <enclosure url="https://github.com/fullstackaiautomation/say-halo-releases/releases/download/v0.8.7/Say-Halo-0.8.7-build-94.zip" length="15161683" type="application/octet-stream" sparkle:edSignature="yuUP/FF+Ke4pewaHlpjue9X4P3g5PVCZoU5xRvc4LtOXGO1hDLN1sLl5rg+gxm+NoO6Bx5eFMoipW3v2WiI5Bg=="/>
+        </item>
+        <item>
+            <title>0.8.6</title>
+            <pubDate>Thu, 30 Jul 2026 15:16:18 -0500</pubDate>
+            <link>https://github.com/fullstackaiautomation/say-halo-releases/releases/latest</link>
+            <sparkle:version>93</sparkle:version>
+            <sparkle:shortVersionString>0.8.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Say Halo 0.8.6
+
+Say Halo 0.8.6 moves updates to Say Halo-owned infrastructure and enables quiet automatic update
+checks and downloads through Sparkle.
+
+## Manual bridge installation
+
+Say Halo 0.8.5 and earlier still trust the inherited Hex update feed, so they cannot install this
+release automatically. Install 0.8.6 once by downloading the notarized ZIP from this release,
+quitting Say Halo, and replacing `/Applications/Say Halo.app` with the downloaded app.
+
+Your settings, models, transcription history, hotkeys, and macOS permission records are stored
+outside the application bundle and are not replaced.
+
+After 0.8.6 is installed, Say Halo checks its public Say Halo appcast automatically. Future updates
+can download quietly in the background and install when Say Halo quits or relaunches. The
+**Check for Updates** button remains available in Settings → About.
+
+## What changed
+
+- Replaced the inherited Hex feed and signing key with a Say Halo-specific Sparkle EdDSA key.
+- Moved notarized update assets and release notes to the public Say Halo release-only repository.
+- Enabled automatic checks and background downloads without system profiling.
+- Rebranded updater-facing About links for Say Halo.
+- Added a fail-closed local release publisher and automated feed/signature safety checks.
+]]></description>
+            <enclosure url="https://github.com/fullstackaiautomation/say-halo-releases/releases/download/v0.8.6/Say-Halo-0.8.6-build-93.zip" length="15125481" type="application/octet-stream" sparkle:edSignature="tGXvud+MsBXGSh5aYt/qvimVrk1HmyH06ljHYfMcyN7sjMlWbCmejM98vW12nVqN5zyjHmAiQEZRtMY4MgGPBg=="/>
+        </item>
+    </channel>
+</rss>
